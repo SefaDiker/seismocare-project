@@ -1,18 +1,30 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+//import BackgroundPhoto from '../images/background_image.png';
 
 
 function App() {
   return (
-    <div >
-      <div style={{ background: '#DADADA', marginBottom: '1.5vmax', padding: '4.6vmax', fontSize: '24px' }}>
-        <a>SeismoCare</a>
+    <div className="App">
+
+      <div className="Header">
+        SeismoCare <br />
+      </div>
+
+
+      <div className="UnderConstruction">
+        <a style={{ fontSize: "calc(28px + 4vmin)" }}>Under Construction</a>
 
       </div>
-      <div>
-        <p style={{ background: '#DADADA', marginBottom: '1.5vmax', padding: '4.6vmax' }}>
-          seismocare@gmail.com</p>
+
+
+      <a className="MailAddress" >seismocare@gmail.com</a>
+
+
+      <div className="Footer">
+        2021 SeismoCare, All Rights Reserved.
       </div>
+
 
     </div >
   );

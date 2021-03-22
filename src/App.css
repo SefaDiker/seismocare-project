@@ -1,38 +1,75 @@
 .App {
-  text-align: center;
+  background-color: rgb(1, 0, 0);
+  background: linear-gradient(110deg, #afd7d4 60%, #3cd3c9 60%);
+  opacity:1.0;
+  position: absolute;
+  width:100%;
+  height:100%;
+  top:0;
+	bottom: 0;
+	left: 0;
+	right: 0; 	
+	margin: auto;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #1a8894;
-  min-height: 100vh;
+.Header {
+  background-color: #5dbfb0;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(18px + 3vmin);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 10vmin;
+  padding-bottom: 10vmin;
+  padding-left: 10vmin;
+
+}
+
+.UnderConstruction {
+  font-size: calc(28px + 4vmin);
+  font-family: monospace;
+  position: absolute;
+  width:80%;
+  height:40%;
+  top:0;
+	bottom: 0;
+	left: 0;
+	right: 0; 	
+	margin: auto;
   align-items: center;
   justify-content: center;
-  font-size: calc(18px + 4vmin);
-  color: white;
+  display: flex;
 }
 
-.App-link {
-  color: #040f12;
+
+.MailAddress{
+  font-size: calc(12px + 3vmin);
+  font-family: fantasy;
+  position: absolute;
+  bottom: calc(28px + 4vmin);
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+	bottom: calc(36px + 8vmin);
+	left: 0;
+	right: 0; 	
+	margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Footer {
+ 
+  font-size: calc(8px + 1vmin);
+  position: absolute;
+  bottom: calc(28px + 4vmin);
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+	bottom: calc(18px + 4vmin);
+	left: 0;
+	right: 0; 	
+	margin: auto;
+
 }
